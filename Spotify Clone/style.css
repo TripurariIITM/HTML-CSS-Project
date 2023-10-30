@@ -1,0 +1,658 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    padding: 8px;
+}
+
+.sidebar{
+    background-color: black;  
+    width: 420px;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.main_content{
+    flex: 1;
+    overflow: auto;
+    background-color: #121212;
+}
+
+
+.music_player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+.nav a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    color: white;
+    height: 112px;
+}
+
+.navbar{
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.navbar a{
+    padding: 4px 12px;
+}
+
+
+.navbar:hover{
+    opacity: 1;
+}
+
+.library{
+    height: 526.4px;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-top: 8px;
+
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    height: 56px;
+    
+    
+}
+
+.lib{
+    padding: 4px 8px;
+    opacity: 0.5;
+}
+
+.lib:hover{
+    opacity: 1;
+}
+
+.lib img{
+    height: 25px;
+    width: 25px;
+}
+
+.lib a{
+    text-decoration: none;
+    color: white;
+    padding: 4px 12px;
+    margin-top: 2px;
+}
+
+.icon{
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 5px;
+    color: white;
+}
+
+.icon i{
+    padding: 10px;
+}
+
+.icon:hover{
+    opacity: 1;
+}
+
+.playlist{
+    background-color: #242424;
+    height: 133.6px;
+    border-radius: 1rem;
+    margin: 8px 8px;
+    padding: 16px 20px;   
+}
+
+.playlist h3{
+    width: 220px;
+    height: 25.6;
+    font-size: 15px;
+    color: white;
+}
+
+.playlist h5{
+    margin: 10px 0px;
+    font-size:12px ;
+    width: 200px;
+    height: 25.6px;
+     color: white;
+}
+
+.playlist button{
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 1rem;
+    font-size: 17px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.playlist button:hover{
+    width:165px ;
+    height:45px ;
+}
+
+.podcast{
+    background-color: #242424;
+    height: 133.6px;
+    border-radius: 1rem;
+    margin: 8px 8px;
+    padding: 16px 20px;
+}
+
+.podcast h3{
+    width: 250px;
+    height: 25.6;
+    font-size: 15px;
+    color: white;
+}
+
+.podcast h5{    
+    margin: 10px 0px;
+    font-size:12px ;
+    width: 250px;
+    height: 25.6px;
+    color: white;
+}
+
+.podcast button{
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 1rem;
+    font-size: 17px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.podcast button:hover{
+    width:185px ;
+    height:45px ;
+}
+
+.sticky_nav{
+    position: sticky;
+    top: 0;
+    background-color:black;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    margin-top: 0;
+}
+
+.nav-icon{
+    margin: 0.52rem; 
+}
+
+.nav-option{
+    color: white;
+    padding: 4px 16px;
+}
+
+.nav-option button{
+    width:170px ;
+    height:40px ;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.nav-option button:hover{
+    width:173px ;
+    height:43px ;
+}
+
+.Install{
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.button{
+    background-color: black;
+    color: white;   
+}
+
+
+.user:hover{
+    font-size: 18px;
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+}
+
+.card_container{
+    display: flex;
+}
+
+.card12{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card12:hover{
+    background-color: #4d4d4d;
+}
+
+.card12 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card_container1{
+    display: flex;
+}
+
+.cards p{
+    margin-left: 3px;
+}
+
+.cards h2{
+    color: white;
+    font-weight: bold;
+    width: 774px;
+    height: 30.4px;
+    margin: 10px;
+}
+
+.card1{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card1:hover{
+    background-color: #4d4d4d;
+}
+
+.card1 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card2{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card2:hover{
+    background-color: #4d4d4d;
+}
+
+.card2 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card_container2{
+    display: flex;
+}
+
+.card3{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card3:hover{
+    background-color: #4d4d4d;
+}
+
+.card3 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+
+.card4{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card4:hover{
+    background-color: #4d4d4d;
+}
+
+.card4 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card5{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card5:hover{
+    background-color: #4d4d4d;
+}
+
+.card5 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+
+.card6{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card6:hover{
+    background-color: #4d4d4d;
+}
+
+.card6 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card_container3{
+    display: flex;
+}
+
+.card7{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card7:hover{
+    background-color: #4d4d4d;
+}
+
+.card7 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+
+.card8{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card8:hover{
+    background-color: #4d4d4d;
+}
+
+.card8 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card9{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card9:hover{
+    background-color: #4d4d4d;
+}
+
+.card9 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+
+.card10{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card10:hover{
+    background-color: #4d4d4d;
+}
+
+.card10 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.card11{
+    height:256.35px; 
+    width: 180px;
+    color: white;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card11:hover{
+    background-color: #4d4d4d;
+}
+
+.card11 img{
+    padding: 10px 10px;
+    border-radius: 1rem;
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer1 .Company{
+    margin-left: 20px;
+}
+
+.footer1 .social{
+    margin-right: 20px;
+    
+}
+
+.footer1 .social i{
+    padding: 10px;
+    background-color:#242424;
+    border-radius: 50%;
+}
+
+.footer1 .social i:hover{
+    background-color: #4d4d4d;
+    border-radius: 50%;
+}
+
+.footer1 h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer1 p{
+    line-height: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer1 p:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* .footer2{
+    width: 100%;
+    height: 200px;
+    display: block;
+    justify-content: space-evenly;
+    color: white;
+} */
+
+.album{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album img{
+    border-radius: 10px;
+}
+
+.album p{
+    margin-left: 10px;
+}
+
+.heart{
+    margin-left:20px ;
+}
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player-controls img{
+    height: 1rem;
+    margin: 20px;
+    opacity: 0.5;
+}
+
+.player-controls img:hover{
+    opacity: 1;
+}
+
+.playbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    width: 60%;
+}
+
+.controls img{
+    height: 2rem;
+    margin: 15px;
+    opacity: 0.5;
+}
