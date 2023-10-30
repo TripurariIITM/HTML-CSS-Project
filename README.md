@@ -1,2 +1,5 @@
 # HTML-CSS-Project
-In this Folder all projects are available that prepare using only HTML and CSS.
+All the projects available in this folder are designed using only HTML and CSS.
+
+# Designed By:-
+Tripurari Kumar
